@@ -148,7 +148,7 @@
                                     <span class="text-black">Subtotal</span>
                                 </div>
                                 <div class="col-md-6 text-right">
-                                    <strong class="text-black" id="cart-subtotal">$0.00</strong>
+                                    <strong class="text-black" id="cart-subtotal">£0.00</strong>
                                 </div>
                             </div>
                             <div class="row mb-5">
@@ -156,7 +156,7 @@
                                     <span class="text-black">Total</span>
                                 </div>
                                 <div class="col-md-6 text-right">
-                                    <strong class="text-black" id="cart-total">$0.00</strong>
+                                    <strong class="text-black" id="cart-total">£0.00</strong>
                                 </div>
                             </div>
 
@@ -282,8 +282,8 @@ function loadCartItems() {
         `;
     });
 
-    document.querySelector('#cart-subtotal').innerText = `$${total.toFixed(2)}`;
-    document.querySelector('#cart-total').innerText = `$${total.toFixed(2)}`;
+    document.querySelector('#cart-subtotal').innerText = `£${total.toFixed(2)}`;
+    document.querySelector('#cart-total').innerText = `£${total.toFixed(2)}`;
 }
 
 // Function to update item quantity in cart
